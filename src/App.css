@@ -1,0 +1,198 @@
+.outerLogin{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.loginImg{
+  width: 100%;
+  height: 100vh;
+  background: url('https://s.france24.com/media/display/0e69136e-e78e-11ee-afac-005056bfb2b6/w:1280/p:16x9/main_%C3%A9lections_inde.png') no-repeat center / cover;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.8);
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+.borderLogin{
+  border: 2px solid #fff;
+  padding: 2rem 3rem;
+  margin: 2rem 3rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0,);
+  /* background-color: #fff; */
+  backdrop-filter: blur(10px);
+
+}
+.welcome-message {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+
+.login-button {
+  background-color: #1fd84d;
+  width: 300px;
+  color: #fff;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 1.5rem;
+  padding: .5rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 3rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-button:hover {
+  background-color: #23fa59;
+}
+.nlogin-button{
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: .51rem;
+  height: 45px;
+  padding: .2rem 2rem;
+  cursor: pointer;
+  margin-left: 60px;
+}
+.buttonaling{
+  display: flex;
+  flex-direction: row;
+}
+.connected-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.connected-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.connected-account {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.connected-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 1.6rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.connected-button:hover {
+  background-color: #0069d9;
+}
+
+.connected-contract-address {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.candidates-table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align:center;
+}
+
+.candidates-table th, .candidates-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.candidates-table th {
+  background-color: #f2f2f2;
+}
+
+input[type=number] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.welcome-message{
+  font-size: xx-large;
+}
+
+/* Basic table styling */
+#myTable,
+.candidates-table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Styling for table headers */
+#myTable th,
+.candidates-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Styling for table cells */
+#myTable td,
+.candidates-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Zebra stripe rows */
+#myTable tbody tr:nth-child(odd),
+.candidates-table tbody tr:nth-child(odd) {
+  background-color: #fbfbfb;
+}
+
+#myTable tbody tr:nth-child(even),
+.candidates-table tbody tr:nth-child(even) {
+  background-color: #fefefe;
+}
+
+/* Hover effect for rows */
+#myTable tbody tr:hover,
+.candidates-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
